@@ -1,0 +1,7 @@
+--------------------------------
+Number of values: 1,000,000
+Minimum value:       -1,000
+Average value:           -0.50
+Maximum value:        1,000
+Total:             -499,225
+--------------------------------
