@@ -141,3 +141,4 @@ cython_debug/
 # IDEA Files
 .idea
 *.zip
+*.docx
