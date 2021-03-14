@@ -1,4 +1,4 @@
-# spooky.py
+# 10_spooky.py
 #
 # Name: Benjamin Goldstone
 # Date: 10/27/20200
@@ -34,7 +34,7 @@ class Pumpkin(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self)         # Initialize the sprite.
         self.dx = speedX
         self.dy = speedY
-        self.image = pygame.image.load("pumpkin.png").convert()
+        self.image = pygame.image.load("10_pumpkin.png").convert()
         self.image.set_colorkey( self.image.get_at((1,1)) )
         self.rect = self.image.get_rect()
         self.rect.centerx = xPos
@@ -66,7 +66,7 @@ class Ghost(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self)         # Initialize the sprite.
         self.dx = speedX
         self.dy = speedY
-        self.image = pygame.image.load("ghost.png").convert()
+        self.image = pygame.image.load("10_ghost.png").convert()
         self.image.set_colorkey(self.image.get_at((1, 1)))
         self.rect = self.image.get_rect()
         self.rect.centerx = xPos

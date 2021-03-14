@@ -1,4 +1,4 @@
-# movingCircle.py - for CSI-102 Lab 9: More practice with Pygame
+# 9_movingCircle.py - for CSI-102 Lab 9: More practice with Pygame
 # Adds colors and user interaction
 #
 # Name: Ben Goldstone

@@ -1,4 +1,4 @@
-# lineNumbers.py
+# 7_lineNumbers.py
 # A program that rewrites a file with line numbers
 # Date: 10/6/2020
 # Name: Ben Goldstone

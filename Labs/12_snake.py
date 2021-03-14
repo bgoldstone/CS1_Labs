@@ -1,5 +1,5 @@
 #################################
-# snake.py
+# 12_snake.py
 #
 # Name: Ben Goldstone
 # Date: 11/16/2001
@@ -112,12 +112,12 @@ def titleScreen():
     #### Fill in here to construct labels for a title and game instructions.
     #### Use multiple Label sprites to do this.
     #### Add your Label sprites to labelGroup.
-    title = Label("SNAKE GAME", (screen.get_width()//2,125),"fonts/DejaVuSans-Bold.ttf", 56, PURPLE)
+    title = Label("SNAKE GAME", (screen.get_width()//2,125),"12_fonts/DejaVuSans-Bold.ttf", 56, PURPLE)
     instructions = Label("Goal: get snake to length of " + str(WIN_SNAKE_LEN) + " boxes long by eating green apples", (screen.get_width()//2,200),"fonts/DejaVuSans.ttf", 20, PURPLE)
-    instructions2 = Label("Keyboard: hit \"q\" or \"esc\" to quit", (screen.get_width()//2,225),"fonts/DejaVuSans.ttf", 20, PURPLE)
-    instructions3 = Label("Use \"up/down/left/right\" arrow keys to move", (screen.get_width()//2,250),"fonts/DejaVuSans.ttf", 20, PURPLE)
-    instructions4 = Label("If snake touches tail game over!", (screen.get_width()//2,275),"fonts/DejaVuSans.ttf", 20, PURPLE)
-    instructions5 = Label("press Left Mouse Button to Start!", (screen.get_width()//2,300),"fonts/DejaVuSans.ttf", 20, PURPLE)
+    instructions2 = Label("Keyboard: hit \"q\" or \"esc\" to quit", (screen.get_width()//2,225),"12_fonts/DejaVuSans.ttf", 20, PURPLE)
+    instructions3 = Label("Use \"up/down/left/right\" arrow keys to move", (screen.get_width()//2,250),"12_fonts/DejaVuSans.ttf", 20, PURPLE)
+    instructions4 = Label("If snake touches tail game over!", (screen.get_width()//2,275),"12_fonts/DejaVuSans.ttf", 20, PURPLE)
+    instructions5 = Label("press Left Mouse Button to Start!", (screen.get_width()//2,300),"12_fonts/DejaVuSans.ttf", 20, PURPLE)
 
     labelGroup = pygame.sprite.Group([title,instructions,instructions2,instructions3,instructions4,instructions5])
     clock = pygame.time.Clock()

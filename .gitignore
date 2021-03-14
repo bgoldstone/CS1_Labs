@@ -140,3 +140,4 @@ dmypy.json
 cython_debug/
 # IDEA Files
 .idea
+*.zip

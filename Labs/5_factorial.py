@@ -1,4 +1,4 @@
-# factorial.py
+# 5_factorial.py
 # A program that asks the user for input and tells user what that numbers factorial is
 # Date: 9/22/2020
 # Name: Ben Goldstone

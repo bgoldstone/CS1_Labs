@@ -1,4 +1,4 @@
-# oddEven.py
+# 5_oddEven.py
 # A program that asks the user a number for input and tells user if number is even or odd
 # Date: 9/22/2020
 # Name: Ben Goldstone

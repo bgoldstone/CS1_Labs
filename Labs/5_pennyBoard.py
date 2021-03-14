@@ -1,4 +1,4 @@
-# pennyBoard.py
+# 5_pennyBoard.py
 # A program that assigns each square on a checkerboard to a set number of pennies getting exponentially bigger
 # Date: 9/22/2020
 # Name: Ben Goldstone

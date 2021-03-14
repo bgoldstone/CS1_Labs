@@ -1,4 +1,4 @@
-# numProcess.py
+# 7_numProcess.py
 # Counts the number of values, finds the minimum, maximum, average value, and the total of all integers in a file
 # Date: 10/6/2020
 # Name: Ben Goldstone

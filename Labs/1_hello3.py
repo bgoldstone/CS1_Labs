@@ -1,4 +1,4 @@
-# hello3.py - My second program
+# 1_hello3.py - My second program
 # Author:    Ben Goldstone
 # Date:      08/25/2020
 yourName = input("What is your name? ")

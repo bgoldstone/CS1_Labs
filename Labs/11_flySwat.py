@@ -1,4 +1,4 @@
-# flySwat.py
+# 11_flySwat.py
 # A game to swat flies
 #
 # Name: Benjamin Goldstone
@@ -31,7 +31,7 @@ class Fly(pygame.sprite.Sprite):
         
     def __init__(self, position, speed):
         pygame.sprite.Sprite.__init__(self)
-        self.image = pygame.image.load("liveFly.png")
+        self.image = pygame.image.load("11_liveFly.png")
         self.image = self.image.convert()
         self.image.set_colorkey( self.image.get_at((1,1)) ) 
         self.rect = self.image.get_rect()
@@ -66,7 +66,7 @@ class Fly(pygame.sprite.Sprite):
         
         
     def swat(self):
-        self.image = pygame.image.load("deadFly.png")
+        self.image = pygame.image.load("11_deadFly.png")
         self.image = self.image.convert()
         self.image.set_colorkey(self.image.get_at((1, 1)))
         self.dx = 0
@@ -78,7 +78,7 @@ class Swatter(pygame.sprite.Sprite):
         
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
-        self.image = pygame.image.load("swatter.png")
+        self.image = pygame.image.load("11_swatter.png")
         self.image = self.image.convert()
         self.image.set_colorkey( self.image.get_at((1, 1)) ) 
         self.rect = self.image.get_rect()
@@ -97,7 +97,7 @@ class Label(pygame.sprite.Sprite):
         #for font in pygame.font.get_fonts():
             #fontList.append(font)
         #self.font = pygame.font.SysFont(fontList[randint(0, len(fontList))], size)
-        self.font = pygame.font.Font("SyneMono-Regular.ttf", size)
+        self.font = pygame.font.Font("11_SyneMono-Regular.ttf", size)
         self.text = " " # Space (" " not "") This avoids visual artifact on some HW
         self.position = position
         
@@ -118,9 +118,9 @@ def main():
     screen.blit(background, (0, 0))
     
     # Create Sound objects
-    yay = pygame.mixer.Sound("yay.wav")
-    slap = pygame.mixer.Sound("slap.wav")
-    aww = pygame.mixer.Sound("aww.mp3")
+    yay = pygame.mixer.Sound("11_yay.wav")
+    slap = pygame.mixer.Sound("11_slap.wav")
+    aww = pygame.mixer.Sound("11_aww.mp3")
     # Create a Label object (used when the game ends)
     message = Label( (screen.get_width()//2, screen.get_height()//2), 60 )
     
@@ -169,7 +169,7 @@ def main():
 
         for fly in swatList:   # swatList is all the flies that are currently being swatted
             fly.swat()
-            slap = pygame.mixer.Sound("slap.wav")
+            slap = pygame.mixer.Sound("11_slap.wav")
             slap.play()
             deadGroup.add(fly) # add the fly to the deadGroup
             flyNum -= 1

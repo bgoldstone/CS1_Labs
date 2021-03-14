@@ -1,4 +1,4 @@
-# bouncingBall.py
+# 8_bouncingBall.py
 #
 # Modified by: Ben Goldstone
 # Date: 10/13/2020

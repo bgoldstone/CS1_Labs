@@ -1,4 +1,4 @@
-# lineSlope.py
+# 2_lineSlope.py
 #
 # Name: Ben Goldstone
 # Date: 9/1/2020

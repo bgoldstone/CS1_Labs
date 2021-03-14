@@ -1,16 +1,16 @@
-# sphere.py
+# 2_sphere.py
 # 
 # Name: Ben Goldstone
 # Date: 9/1/2020
 #
-# Given the radius of a sphere, this program computes its 
+# Asks user for the radius of a sphere, and computes its
 # diameter, surface area, and volume.
 # A useful value:
 PI = 3.14159265359
 
 # Initialize the radius:
-radius = 4.0
-
+radius = float(input("Please enter a radius: "))
+print()
 # Calculate the properties of the sphere:
 diameter = 2 * radius
 area = 4 * PI * radius ** 2

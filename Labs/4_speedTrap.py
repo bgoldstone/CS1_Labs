@@ -1,4 +1,4 @@
-# speedTrap.py
+# 4_speedTrap.py
 # a program that takes the speed limit on a street and the speed of a car in as input,
 # and outputs if you are going the legal speed limit, if you are speeding, or if you are excessively speeding
 # Date: 9/15/2020

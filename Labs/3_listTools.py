@@ -1,4 +1,4 @@
-# listTools.py
+# 3_listTools.py
 # A program that calculates the sum, the length, and the average for a given list of numbers.
 # Name: Ben Goldstone
 # Date: 9/8/2020

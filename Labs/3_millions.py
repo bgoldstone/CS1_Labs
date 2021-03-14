@@ -1,4 +1,4 @@
-# millions.py
+# 3_millions.py
 # Create a list of odd integer number from 1 up to 10,000,000 and finds the total number of numbers,
 # the sum of all the numbers, and the average.
 # Name: Ben Goldstone

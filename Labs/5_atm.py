@@ -1,4 +1,4 @@
-# atm.py
+# 5_atm.py
 # A program that is a sample atm machine that can print a balance, deposit money, and withdrawal money
 # Date: 9/22/2020
 # Name: Ben Goldstone

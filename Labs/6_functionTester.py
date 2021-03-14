@@ -1,4 +1,4 @@
-# functionTester.py
+# 6_functionTester.py
 # A program for testing the use of some iterative functions that calculate
 # solutions to some simple mathematical problems.
 #

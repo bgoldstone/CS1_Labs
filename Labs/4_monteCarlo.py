@@ -1,4 +1,4 @@
-# monteCarlo.py
+# 4_monteCarlo.py
 # A program that approximates Pi using a random float generator and the formula of a circle
 # Date: 9/15/2020
 # Name: Ben Goldstone
