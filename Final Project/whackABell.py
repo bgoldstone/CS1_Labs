@@ -4,7 +4,7 @@
 # Date: 11/30/2020
 # Name: Ben Goldstone
 from random import randint
-import pygame, os, datetime
+import pygame, os, datetime,gc
 # from label import Label
 pygame.init()
 pygame.mixer.init()
@@ -444,6 +444,7 @@ def game():
     return [win,time]
 
 def main():
+    gc.enable();
     titleScreen()
     replay = True
     while replay:
@@ -453,6 +454,6 @@ def main():
             highScores(time)
     endScreen()
 
-
-main()
-pygame.quit()
+if __name__ == '__main__':
+    main()
+    pygame.quit()
